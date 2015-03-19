@@ -1,0 +1,59 @@
+.account_head {
+	border-radius: 6px;
+	width:100%;
+	height:100%;
+}
+
+.tt_c {
+	width:100%;
+}
+
+.tt_c tr td {
+	padding:10px;
+}
+
+.tt_c tr td div {
+	cursor:pointer;
+	border:solid 3px white; 
+}
+
+.img_div {
+	width:93px;
+	height:93px;
+	border: 3px solid white;
+	cursor:pointer;
+}
+
+.today_add_person {
+    background-color: #F2F2F2;
+	border: 1px solid #000000;
+	height:50px;
+	line-height:50px;
+	word-wrap: break-word;
+}
+
+.total_person {
+    background-color: #CCCCCC;
+	border: 1px solid #000000;
+	height:50px;
+	line-height:50px;
+	word-wrap: break-word;
+}
+
+.today_message {
+    background-color: #666666;
+	border: 1px solid #000000;
+    color:#ffffff;
+	height:50px;
+	line-height:50px;
+	word-wrap: break-word;
+}
+
+.today_push {
+    background-color: #ffffff;
+	border: 1px solid #000000;
+	height:50px;
+	line-height:50px;
+	word-wrap: break-word;
+}
+

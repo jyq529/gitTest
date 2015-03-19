@@ -1,0 +1,173 @@
+#默认的配置文件，这里设置为production(生产环境)，在development(开发环境)时，可以使用 --spring.profiles.active=development运行
+spring:
+  profiles:
+    active: production
+
+---
+#这个是配置工程中默认属性
+spring:
+  application:
+        name: guoren-xintianyou-web
+  view:
+    prefix: /WEB-INF/views/
+    suffix: .jsp
+
+---
+server:
+  sessionTimeout: 120
+
+---
+#这个是配置工程中上传文件配置
+multipart:
+  maxFileSize: 10Mb
+  maxRequestSize: 20Mb
+
+---
+#日志配置
+logging:
+  path: logs
+  file: logs/guoren-xintianyou-web.log
+  level: ERROR
+
+---
+#短信服务配置
+sms:
+  userID: 961688
+  account: admin
+  password: NAH1TM
+  url: http://www.mxtong.net.cn:8080/GateWay/Services.asmx/DirectSend
+  proxy:
+    host: 192.168.5.147
+    port: 3128
+    enable: true
+---
+#测试环境配置
+spring:
+    profiles: test
+    data: 
+      #mongodb环境配置
+      mongodb: 
+        host: 192.168.228.139
+        port: 27017
+        database: xintianyoumo
+    redis: 
+      host: 115.159.30.43
+      port: 6379
+db1: 
+  datasource:
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.228.136/gr_net_manage?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password:
+    maxActive: 500
+    maxIdle: 200
+    minIdle: 10
+    maxWait: 3000
+    validationQuery: select 1
+    testOnBorrow: true
+db2: 
+  datasource:
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.228.136/gr_net_manage?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password:
+    maxActive: 500
+    maxIdle: 200
+    minIdle: 10
+    maxWait: 3000
+    validationQuery: select 1
+    testOnBorrow: true
+memcache:
+  servers:
+    192.168.228.136:11211
+  weights:
+    1
+  connectionPoolSize: 1
+
+---
+#开发环境配置
+spring:
+    profiles: development
+    data: 
+      mongodb: 
+        host: 192.168.228.139
+        port: 27017
+        database: basestation1027
+    redis:
+      host: 115.159.30.43
+      port: 6379
+db1: 
+  datasource:
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.228.136/tracker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: test_sim
+    password: sim@sim
+    maxActive: 500
+    maxIdle: 200
+    minIdle: 10
+    maxWait: 3000
+    validationQuery: select 1
+    testOnBorrow: true
+db2: 
+  datasource:
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.228.136/tracker?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: test_sim
+    password: sim@sim
+    maxActive: 500
+    maxIdle: 200
+    minIdle: 10
+    maxWait: 3000
+    validationQuery: select 1
+    testOnBorrow: true
+memcache:
+  servers:
+    192.168.228.136:11211
+  weights:
+    1
+  connectionPoolSize: 1
+
+---
+#生产环境配置
+spring:
+    profiles: production
+    data: 
+      mongodb: 
+        host: 121.40.127.12
+        port: 27017
+        database: basestation
+        username: sim
+        password: sim@sim
+    redis: 
+      host: 115.159.30.43
+      port: 6379
+db1: 
+  datasource:
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.84.21/tracker2?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: myuser
+    password: password
+    maxActive: 500
+    maxIdle: 200
+    minIdle: 10
+    maxWait: 3000
+    validationQuery: select 1
+    testOnBorrow: true
+db2: 
+  datasource:
+    driverClassName: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.84.21/tracker2?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: myuser
+    password: password
+    maxActive: 500
+    maxIdle: 200
+    minIdle: 10
+    maxWait: 3000
+    validationQuery: select 1
+    testOnBorrow: true
+memcache:
+  servers:
+    215.2.2.5:11211
+  weights:
+    1
+  connectionPoolSize: 1

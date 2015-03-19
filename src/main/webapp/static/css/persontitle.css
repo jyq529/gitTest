@@ -1,0 +1,146 @@
+.person_title{
+	margin-top:20px;
+	margin-left:0px;
+	float:left;
+}
+.yygl{
+	font: 40px "Microsoft YaHei";
+}
+.rs{
+	font: 30px "Microsoft YaHei";
+}
+.sl{
+    font: 30px "Microsoft YaHei";
+    color:red;
+}
+.icon{
+	margin-left:20px;
+}
+.img1{
+	margin-top:30px;
+	margin-left:25px;
+	float:left;
+}
+.table{
+	/* margin-top:120px;
+	margin-left:0px;
+	margin-right:20px; */
+}
+th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:20px;
+}
+td{
+	height:70px;
+	border-bottom: 1px solid #ccc;
+	padding-left:20px;
+}
+a{
+	color:#000;
+}
+.cjq{
+  	font: 25px "Microsoft YaHei";
+}
+.close-reveal-modal{
+	margin-top:18px;
+	margin-right:20px;
+}
+.img2{
+	margin-top:35px;
+	margin-bottom:35px;
+}
+input[type="text"],select{
+    width:300px;
+    height:40px;
+    color: #939292;
+}
+.space{
+	margin-bottom:20px;
+}
+.button1{
+	background-color: #2F9FE0;
+	color: #fff; 
+	border-radius:5px;
+	display:block;
+	height: 3em;
+	line-height: 3em;
+	width:8em;
+	text-align: center;
+}
+.button2{
+	background-color: #444444;
+	color: #fff; 
+	border-radius:5px;
+	display:block;
+	height: 3em;
+	line-height: 3em;
+	width:8em;
+	text-align: center;
+}
+.button4{
+	background-color: #fff;
+	color: #000; 
+	border-radius:7px;
+	border: 2px solid #666;
+	display:block;
+	height: 3em;
+	line-height: 2.8em;
+	width:8em;
+	text-align: center;
+}
+textarea{
+	width:740px;
+	height:200px;
+}
+.select_c{
+	background-color: #fff;
+	color: #000; 
+	border-radius:10px;
+	border: 2px solid #666;
+	display:block;
+	height: 3em;
+	line-height: 2.8em;
+	width:8em;
+	text-align: center;
+}
+.img-responsive {
+  width: 480px;float: left;margin-right: 30px;
+}
+.errorInfor{
+	color:red;
+}
+.fixedThead{
+    display: block;
+    width: 100%;
+    padding-right:10px;
+}
+.scrollTbody{
+    display: block;
+    height: 570px;
+    overflow-y: auto;
+    width: 100%;
+}
+#refresh th,td{
+    width: 1200px;
+}
+#refreshpro th,td{
+    width: 1200px;
+}
+#userstableedit th,td{
+    width: 520px;
+}
+#userstableadd th,td{
+    width: 520px;
+}
+#userstableedit th,td.lb{
+    width: 90px;
+}
+#userstableadd th,td.lb{
+    width: 90px;
+}
+.label-fixed {float:right;}
+.input_control tr td {border: 0px;height:40px;padding:0px;}
+.input_control .errorInforTr td {border: 0px;height:25px;}
+.input_control tr td input{width:95%;}

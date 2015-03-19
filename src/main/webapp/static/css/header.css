@@ -1,0 +1,29 @@
+/* 导航左端Logo */
+.navbar-header{
+	width:160px;
+	height:41px; 
+	margin-top: 2px;
+	margin-left: 6px;
+}
+
+/* 下拉选项圆角灰色背景 */
+.dropdown-menu li a{
+	display:block;
+	height:30px;
+}
+
+/* 下拉选项鼠标经过蓝色背景 */
+.dropdown-menu li a:hover{
+	color:white;
+	background:#2F9FE0;
+}
+
+
+/* 错误提示样式 */
+#errorInfor, #pwdErro1, #pwdErro2{
+	color:red;
+}
+
+#accountinfoTable tr td{
+	vertical-align:top;
+}

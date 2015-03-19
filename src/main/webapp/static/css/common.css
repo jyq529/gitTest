@@ -1,0 +1,50 @@
+#datagrid tr th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:8px;
+	text-align:center;
+}
+
+#voicedatagrid tr th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:20px;
+	text-align:center;
+}
+
+
+#interTable tr th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:20px;
+	text-align:center;
+}
+
+#interView tr th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:20px;
+	text-align:center;
+}
+
+a{
+	cursor:pointer;
+}
+
+.dropdown-menu li{
+	margin-left:0px;
+}
+
+.dropdown-menu li a label{
+	margin-left:5px;
+	text-align:left;
+}
+
+body {
+	min-width:980px;
+	font-size:14px;
+}

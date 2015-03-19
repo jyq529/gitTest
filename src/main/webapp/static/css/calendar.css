@@ -1,0 +1,135 @@
+.c_week_head {
+	height:40px;
+	background-color:#FBFBFB;
+}
+.c_week_body {
+	height:60px;
+	background-color:#FFFFFF;
+}
+.c_day {
+	width:100%;
+	height:60px;
+	cursor:pointer;
+	padding:0px;
+	font-size:18px;
+}
+.c_day_font_white {
+	color:#FFFFFF;
+	height:60px;
+	text-align:center;
+	font-size:12px;
+	padding-top:45px;"
+	width:100%;
+}
+.c_day_font_gray {
+	color:#CCCCCC;
+}
+.c_day_font_black {
+	color:#444444;
+}
+.c_day_font_today {
+	color:#FFFFFF;
+}
+.c_hour_default {
+	background-color:#FFFFFF;
+}
+.c_hour_no_fill {
+	cursor:pointer;
+	padding:0px;
+	background:url(../images/icon01.png) no-repeat center 10px;
+	background-color:#F86B4F;
+	height:60px;
+}
+.c_hour_no_fill_full {
+	cursor:pointer;
+	padding:0px;
+	background:url(../images/icon12.png) no-repeat center 10px;
+	background-color:#FCB322;
+	height:60px;
+}
+.c_hour_fill_full {
+	cursor:pointer;
+	padding:0px;
+	background:url(../images/icon11.png) no-repeat center 10px;
+	background-color:#A9D86E;
+	height:60px;
+}
+.c_today {
+	cursor:pointer;
+	padding:0px;
+	background:url(../images/icon13.png) right 10px bottom 6px no-repeat;
+	background-color:#2F9FE0;
+	height:60px;
+}
+.c_today_fill {
+	cursor:pointer;
+	padding:0px;
+	background-color:#2F9FE0;
+	height:60px;
+}
+.c_today_calendar {
+	padding:5px;
+	background-color:#2F9FE0;
+}
+.c_today_time {
+	padding:5px;
+	background-color:#FFFFFF;
+	float:right;
+}
+.c_delete_div {
+	filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(3px); /* Chrome, Opera */
+       -moz-filter: blur(3px);
+        -ms-filter: blur(3px);    
+            filter: blur(3px);
+}
+.c_delete_div_ie { /* IE6~IE9 */
+    /*filter:Blur(Add=1,Direction=45,Strength=5); 
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=false);*/
+    filter:alpha(opacity=20);-moz-opacity:0.7;
+}
+.c_delete_div_ie11 { /* IE11 */
+	color:#F2F2F2;
+}
+
+
+.c_nodelete_div {height:25px;width:100%;text-align:center;line-height:25px;}
+
+.fixedThead{
+    width: 100%;
+    padding-right:10px;
+}
+.scrollTbody{
+    height: 50px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.btn_day {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:20px;
+	text-align:center;
+}

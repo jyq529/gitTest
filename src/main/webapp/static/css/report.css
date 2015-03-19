@@ -1,0 +1,61 @@
+.icon15{
+	margin:0px 25px;
+}
+.icon27{
+	margin:0px 25px;
+}
+.icon22{
+	margin-right:25px;
+}
+.header-title{
+	margin-right:25px;
+}
+
+.hidden{
+	visibility: hidden;
+}
+.visible{
+	visibility: visible;
+}
+.header{
+	margin-bottom:30px;
+}
+.style1{
+	background-color:#fbfbfb;
+}
+#selectProject,#selectUser{
+    color: #2f9fe0;
+	background-color:#FFF;
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+
+.fixedThead{
+    display: block;
+    width: 100%;
+}
+.scrollTbody{
+    display: block;
+    height: 600px;
+    overflow-y: auto;
+    width: 100%;
+}
+.table td{
+    width: 800px;
+}
+
+th{
+	background-color: #eee;
+	height:40px;
+	border-bottom: 2px solid #aaa;
+	padding-left:20px;
+	text-align:center;
+}
+
+
+
+
+

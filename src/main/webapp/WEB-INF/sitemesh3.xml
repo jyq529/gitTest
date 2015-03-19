@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	<!-- 指明满足"/work/*"的页面，将被"/WEB-INF/views/layouts/default.jsp"所装饰 -->
+	<mapping path="/work/*" decorator="/WEB-INF/layouts/ornament_grid.jsp" />
+	<mapping path="/work/trpguestdata/toRpGuestFlowData" decorator="/WEB-INF/layouts/ornament_grid_chart.jsp" />
+	<mapping path="/work/trpguestdata/toRpGuestData" decorator="/WEB-INF/layouts/ornament_grid_chart.jsp" />
+	<mapping path="/work/trpguestdata/toRpGuestEqOnlineData" decorator="/WEB-INF/layouts/ornament_grid_chart.jsp" />
+	<mapping path="/work/welcome/user" decorator="/WEB-INF/layouts/ornament_welcome.jsp" />
+	<mapping path="/work/welcome/admin" decorator="/WEB-INF/layouts/ornament_welcome.jsp" />
+	<content-processor>
+		<tag-rule-bundle
+			class="guoren.xintianyou.web.core.sitemesh.FooterTagRuleBundle" />
+	</content-processor>
+</sitemesh>
